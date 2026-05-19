@@ -1,0 +1,55 @@
+{
+  "company": "Open",
+  "company_slug": "open",
+  "repo": "agent5-guardrails",
+  "package": "agent5_guardrails",
+  "cli": "agent5-guardrails",
+  "title": "Agent5 Guardrails",
+  "problem": "Open's $7M thesis is \"we win regulated enterprise (fintech/healthcare) by resolving L2/L3 issues autonomously\" and Agent 5's marketing leans hard on \"every decision, every confidence score, every mistake\" being visible (agent5). But the evaluation primitive they ship publicly is zevals - binary LLM as judge assertions over single conversations (zevals).",
+  "direction": "A live evaluation + policy conformance harness that turns Open's webhook stream into an auditable \"Agent 5 didn't break the rules this week\" dashboard, with zevals compatible regression suites synthesised from real handoffs.",
+  "why": "A SOC2 ready PDF that maps Agent 5 actions to controls is more valuable to Mo's GTM than another dashboard - and it's the artifact Mollie's risk team actually files. Most engineers ship the dashboard.",
+  "terms": [
+    "thesis",
+    "regulated",
+    "enterprise",
+    "fintech",
+    "healthcare",
+    "resolving",
+    "issues",
+    "autonomously",
+    "agent",
+    "marketing",
+    "leans",
+    "every",
+    "decision",
+    "confidence",
+    "score",
+    "mistake",
+    "being",
+    "visible"
+  ],
+  "metrics": [
+    "thesis_coverage",
+    "regulated_risk",
+    "enterprise_precision",
+    "fintech_latency"
+  ],
+  "failure_modes": [
+    "thesis_drift",
+    "regulated_gap",
+    "enterprise_misroute",
+    "fintech_blindspot"
+  ],
+  "sources": [
+    "https://www.open.cx/agent5",
+    "https://docs.open.cx/introduction",
+    "https://github.com/opencx-labs",
+    "https://github.com/opencx-labs/zevals",
+    "https://github.com/opencx-labs/copilot",
+    "https://wasssl.com/opencx-raises-usd-7-million-to-scale-ai-customer-communication-across-enterprises/",
+    "https://theaiinsider.tech/2025/01/13/open-cx-closes-1-52m-funding-round-to-disrupt-customer-support-with-advanced-ai-solutions/",
+    "https://www.linkedin.com/posts/gharabat_we-have-released-opens-public-apis-likely-activity-7237491696177938433-YCOK",
+    "https://www.linkedin.com/posts/gharabat_introducing-companion-the-agentic-version-activity-7449507043876519936-FW4C"
+  ],
+  "github_url": "https://github.com/t7r0n/agent5-guardrails"
+}
