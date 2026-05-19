@@ -1,2 +1,0 @@
-[console_scripts]
-agent5-guardrails = agent5_guardrails.cli:main
