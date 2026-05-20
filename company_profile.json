@@ -5,7 +5,7 @@
   "package": "agent5_guardrails",
   "cli": "agent5-guardrails",
   "title": "Agent5 Guardrails",
-  "problem": "Open's $7M thesis is \"we win regulated enterprise (fintech/healthcare) by resolving L2/L3 issues autonomously\" and Agent 5's marketing leans hard on \"every decision, every confidence score, every mistake\" being visible (agent5). But the evaluation primitive they ship publicly is zevals - binary LLM as judge assertions over single conversations (zevals).",
+  "problem": "Open's $7M thesis is \"we win regulated enterprise (fintech/healthcare) by resolving L2/L3 issues autonomously\" and Agent 5's marketing leans hard on \"every decision, every confidence score, every mistake\" being visible (agent5). But the evaluation primitive they ship publicly is zevals \u2014 binary LLM as judge assertions over single conversations (zevals).",
   "direction": "A live evaluation + policy conformance harness that turns Open's webhook stream into an auditable \"Agent 5 didn't break the rules this week\" dashboard, with zevals compatible regression suites synthesised from real handoffs.",
   "why": "A SOC2 ready PDF that maps Agent 5 actions to controls is more valuable to Mo's GTM than another dashboard - and it's the artifact Mollie's risk team actually files. Most engineers ship the dashboard.",
   "terms": [
