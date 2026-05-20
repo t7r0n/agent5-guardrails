@@ -1,69 +1,73 @@
 {
-  "company": "Open",
+  "company": "Agent5 Guardrails",
   "repo": "agent5-guardrails",
   "terms": [
-    "thesis",
-    "regulated",
-    "enterprise",
-    "fintech",
-    "healthcare",
-    "resolving",
-    "issues",
-    "autonomously"
+    "evidence",
+    "workflow",
+    "review",
+    "claims",
+    "fixtures",
+    "replay",
+    "handoff",
+    "trace",
+    "policy",
+    "decision",
+    "coverage",
+    "latency"
   ],
   "metrics": [
-    "thesis_coverage",
-    "regulated_risk",
-    "enterprise_precision",
-    "fintech_latency"
+    "evidence_coverage",
+    "handoff_risk",
+    "claim_precision",
+    "review_latency"
   ],
   "failure_modes": [
-    "thesis_drift",
-    "regulated_gap",
-    "enterprise_misroute",
-    "fintech_blindspot"
+    "evidence_drift",
+    "handoff_gap",
+    "claim_misroute",
+    "review_blindspot"
   ],
-  "evidence_density": 17.75,
+  "evidence_density": 18.5,
   "pressure_index": 0.3167,
   "blocked_share": 0.0972,
   "review_share": 0.1319,
   "top_leverage_points": [
     {
       "rank": 1,
-      "scenario": "thesis evidence replay",
-      "metric": "thesis_coverage",
-      "failure_mode": "thesis_drift",
-      "evidence": "ev_0044",
+      "scenario": "evidence replay",
+      "metric": "evidence_coverage",
+      "failure_mode": "evidence_drift",
+      "evidence": "ev_0132",
       "operator_action": "block release until cited evidence is regenerated",
       "severity": 2.611
     },
     {
       "rank": 2,
-      "scenario": "fintech operator packet",
-      "metric": "regulated_risk",
-      "failure_mode": "regulated_gap",
-      "evidence": "ev_0011",
+      "scenario": "review operator packet",
+      "metric": "handoff_risk",
+      "failure_mode": "handoff_gap",
+      "evidence": "ev_0055",
       "operator_action": "accept only if decision claims cite fixture evidence",
       "severity": 2.556
     },
     {
       "rank": 3,
-      "scenario": "enterprise regression harness",
-      "metric": "enterprise_precision",
-      "failure_mode": "enterprise_misroute",
+      "scenario": "claim regression harness",
+      "metric": "claim_precision",
+      "failure_mode": "claim_misroute",
       "evidence": "ev_0066",
       "operator_action": "open a regression issue with trace and benchmark delta",
       "severity": 2.528
     },
     {
       "rank": 4,
-      "scenario": "regulated boundary probe",
-      "metric": "fintech_latency",
-      "failure_mode": "fintech_blindspot",
-      "evidence": "ev_0033",
+      "scenario": "handoff boundary probe",
+      "metric": "review_latency",
+      "failure_mode": "review_blindspot",
+      "evidence": "ev_0121",
       "operator_action": "route to reviewer with evidence packet",
       "severity": 2.528
     }
   ],
-  "readout": "Open gets a local, deterministic pressure test around thesis, regulated, and enterprise. The useful part is the repeatable evidence path from fixture to failure to operator action."
+  "readout": "This local harness runs a deterministic pressure test around evidence, workflow, and review. The useful part is the repeatable evidence path from fixture to failure to operator action."
 }

@@ -1,7 +1,7 @@
 [project]
 name = "agent5-guardrails"
 version = "0.1.0"
-description = "A live evaluation + policy conformance harness that turns Open's webhook stream into an auditable \"Agent 5 didn't break the rules this week\""
+description = "A live evaluation + policy conformance harness that turns Agent5 Guardrails's webhook stream into an auditable 'Agent 5 "
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [

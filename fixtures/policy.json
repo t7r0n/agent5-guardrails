@@ -1,37 +1,37 @@
 {
-  "company": "Open",
+  "company": "Agent5 Guardrails",
   "repo": "agent5-guardrails",
   "metrics": [
-    "thesis_coverage",
-    "regulated_risk",
-    "enterprise_precision",
-    "fintech_latency"
+    "evidence_coverage",
+    "handoff_risk",
+    "claim_precision",
+    "review_latency"
   ],
   "failure_modes": [
-    "thesis_drift",
-    "regulated_gap",
-    "enterprise_misroute",
-    "fintech_blindspot"
+    "evidence_drift",
+    "handoff_gap",
+    "claim_misroute",
+    "review_blindspot"
   ],
   "domain_archetypes": [
     {
-      "name": "thesis evidence replay",
-      "trigger": "thesis signal changes while regulated context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "regulated boundary probe",
-      "trigger": "regulated handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
-      "name": "enterprise regression harness",
-      "trigger": "enterprise behavior regresses against the last accepted fixture",
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "fintech operator packet",
-      "trigger": "fintech output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],

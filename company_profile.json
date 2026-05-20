@@ -1,77 +1,61 @@
 {
-  "company": "Open",
-  "company_slug": "open",
+  "company": "Agent5 Guardrails",
+  "company_slug": "agent5-guardrails",
   "repo": "agent5-guardrails",
   "package": "agent5_guardrails",
   "cli": "agent5-guardrails",
   "title": "Agent5 Guardrails",
-  "problem": "Open's $7M thesis is \"we win regulated enterprise (fintech/healthcare) by resolving L2/L3 issues autonomously\" and Agent 5's marketing leans hard on \"every decision, every confidence score, every mistake\" being visible (agent5). But the evaluation primitive they ship publicly is zevals \u2014 binary LLM as judge assertions over single conversations (zevals).",
-  "direction": "A live evaluation + policy conformance harness that turns Open's webhook stream into an auditable \"Agent 5 didn't break the rules this week\" dashboard, with zevals compatible regression suites synthesised from real handoffs.",
-  "why": "A SOC2 ready PDF that maps Agent 5 actions to controls is more valuable to Mo's GTM than another dashboard - and it's the artifact Mollie's risk team actually files. Most engineers ship the dashboard.",
+  "problem": "Agent5 Guardrails's $7M thesis is \"we win regulated enterprise (fintech/healthcare) by resolving L2/L3 issues autonomously\" and Agent 5's marketing leans hard on \"every decision, every confidence score, every mistake\" being visible (agent5). But the evaluation primitive they ship publicly is zevals - binary LLM as judge assertions over single conversations (zevals).",
+  "direction": "A live evaluation + policy conformance harness that turns Agent5 Guardrails's webhook stream into an auditable \"Agent 5 didn't break the rules this week\" dashboard, with zevals compatible regression suites synthesised from real handoffs.",
+  "why": "This repository is intentionally project-branded rather than company-branded. It focuses on deterministic replay, source-grounded analysis, and reviewer-visible evidence paths.",
   "terms": [
-    "thesis",
-    "regulated",
-    "enterprise",
-    "fintech",
-    "healthcare",
-    "resolving",
-    "issues",
-    "autonomously",
-    "agent",
-    "marketing",
-    "leans",
+    "evidence",
+    "workflow",
+    "review",
+    "claims",
+    "fixtures",
+    "replay",
+    "handoff",
+    "trace",
+    "policy",
     "decision",
-    "confidence",
-    "score",
-    "mistake",
-    "being",
-    "visible",
-    "evaluation"
+    "coverage",
+    "latency"
   ],
   "metrics": [
-    "thesis_coverage",
-    "regulated_risk",
-    "enterprise_precision",
-    "fintech_latency"
+    "evidence_coverage",
+    "handoff_risk",
+    "claim_precision",
+    "review_latency"
   ],
   "failure_modes": [
-    "thesis_drift",
-    "regulated_gap",
-    "enterprise_misroute",
-    "fintech_blindspot"
+    "evidence_drift",
+    "handoff_gap",
+    "claim_misroute",
+    "review_blindspot"
   ],
   "archetypes": [
     {
-      "name": "thesis evidence replay",
-      "trigger": "thesis signal changes while regulated context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "regulated boundary probe",
-      "trigger": "regulated handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
-      "name": "enterprise regression harness",
-      "trigger": "enterprise behavior regresses against the last accepted fixture",
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "fintech operator packet",
-      "trigger": "fintech output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "sources": [
-    "https://www.open.cx/agent5",
-    "https://docs.open.cx/introduction",
-    "https://github.com/opencx-labs",
-    "https://github.com/opencx-labs/zevals",
-    "https://github.com/opencx-labs/copilot",
-    "https://wasssl.com/opencx-raises-usd-7-million-to-scale-ai-customer-communication-across-enterprises/",
-    "https://theaiinsider.tech/2025/01/13/open-cx-closes-1-52m-funding-round-to-disrupt-customer-support-with-advanced-ai-solutions/",
-    "https://www.linkedin.com/posts/gharabat_we-have-released-opens-public-apis-likely-activity-7237491696177938433-YCOK",
-    "https://www.linkedin.com/posts/gharabat_introducing-companion-the-agentic-version-activity-7449507043876519936-FW4C"
-  ],
+  "sources": [],
   "github_url": "https://github.com/t7r0n/agent5-guardrails"
 }

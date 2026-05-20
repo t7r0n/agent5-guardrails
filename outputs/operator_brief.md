@@ -1,13 +1,13 @@
-# Operator Brief: Open
+# Operator Brief: Agent5 Guardrails
 
-Open gets a local, deterministic pressure test around thesis, regulated, and enterprise. The useful part is the repeatable evidence path from fixture to failure to operator action.
+This local harness runs a deterministic pressure test around evidence, workflow, and review. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
-- thesis evidence replay -> block release until cited evidence is regenerated (thesis_coverage, evidence ev_0044).
-- fintech operator packet -> accept only if decision claims cite fixture evidence (regulated_risk, evidence ev_0011).
-- enterprise regression harness -> open a regression issue with trace and benchmark delta (enterprise_precision, evidence ev_0066).
-- regulated boundary probe -> route to reviewer with evidence packet (fintech_latency, evidence ev_0033).
+- evidence replay -> block release until cited evidence is regenerated (evidence_coverage, evidence ev_0132).
+- review operator packet -> accept only if decision claims cite fixture evidence (handoff_risk, evidence ev_0055).
+- claim regression harness -> open a regression issue with trace and benchmark delta (claim_precision, evidence ev_0066).
+- handoff boundary probe -> route to reviewer with evidence packet (review_latency, evidence ev_0121).
 
 ## What makes this useful
 
