@@ -1,7 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-enterprise failure replay,24,2,4,3.333,0.5488,ev_0044,block release until replay is understood
-fintech policy boundary,24,2,3,1.708,0.2524,ev_0033,block release until replay is understood
-regulated gap,24,3,2,3.333,0.5273,ev_0143,block release until replay is understood
-regulated reviewer handoff,24,2,4,2.583,0.4112,ev_0121,block release until replay is understood
-thesis drift,24,2,3,2.5,0.3806,ev_0088,block release until replay is understood
-thesis evidence recall,24,3,3,1.875,0.2911,ev_0066,block release until replay is understood
+enterprise regression harness,36,3,5,2.528,0.4086,ev_0066,open a regression issue with trace and benchmark delta
+fintech operator packet,36,4,5,2.556,0.3953,ev_0011,accept only if decision claims cite fixture evidence
+regulated boundary probe,36,3,4,2.528,0.3795,ev_0033,route to reviewer with evidence packet
+thesis evidence replay,36,4,5,2.611,0.4192,ev_0044,block release until cited evidence is regenerated

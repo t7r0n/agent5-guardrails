@@ -1,0 +1,67 @@
+{
+  "repo": "agent5-guardrails",
+  "company": "Open",
+  "rubric_axes": [
+    {
+      "axis": "thesis_coverage",
+      "failures": [
+        "thesis_drift"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "regulated_risk",
+      "failures": [
+        "regulated_gap"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "enterprise_precision",
+      "failures": [
+        "enterprise_misroute"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "fintech_latency",
+      "failures": [
+        "fintech_blindspot"
+      ],
+      "evidence_required": true
+    }
+  ],
+  "archetypes": [
+    {
+      "name": "thesis evidence replay",
+      "trigger": "thesis signal changes while regulated context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "regulated boundary probe",
+      "trigger": "regulated handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "enterprise regression harness",
+      "trigger": "enterprise behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "fintech operator packet",
+      "trigger": "fintech output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
+  "sources_used": [
+    "https://www.open.cx/agent5",
+    "https://docs.open.cx/introduction",
+    "https://github.com/opencx-labs",
+    "https://github.com/opencx-labs/zevals",
+    "https://github.com/opencx-labs/copilot",
+    "https://wasssl.com/opencx-raises-usd-7-million-to-scale-ai-customer-communication-across-enterprises/",
+    "https://theaiinsider.tech/2025/01/13/open-cx-closes-1-52m-funding-round-to-disrupt-customer-support-with-advanced-ai-solutions/",
+    "https://www.linkedin.com/posts/gharabat_we-have-released-opens-public-apis-likely-activity-7237491696177938433-YCOK",
+    "https://www.linkedin.com/posts/gharabat_introducing-companion-the-agentic-version-activity-7449507043876519936-FW4C"
+  ]
+}
