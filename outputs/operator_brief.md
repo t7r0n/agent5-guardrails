@@ -1,6 +1,6 @@
 # Operator Brief: Open
 
-Open gets a local, deterministic pressure test around thesis, regulated, and enterprise. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+Open gets a local, deterministic pressure test around thesis, regulated, and enterprise. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
